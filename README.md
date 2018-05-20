@@ -8,6 +8,18 @@
 - GPU：GTX 1060
 - GUI：Tkinter
 
+# 文件结构及意义
+- VGG16_model：存放训练好的VGG16模型——vgg16_weights_tf_dim_ordering_tf_kernels.h5
+- main：主文件
+  - MedicalLargeClassification.py——图像识别GUI搭建
+  - MedicalLargeFine_tuning.py——图像大类识别模型搭建
+  - MedicalSegmentFine_tuning.py——医学小类识别模型搭建
+  - MedicalLargeClassificationModel_weights_15.h5——训练好的图像大类分类模型
+  - MedicalSegmentClassificationModel_weights_15.h5——训练好的医学小类分类模型
+- picture：
+  - craw_picture.py——爬虫系统构建
+- testCase：测试样本
+
 # 数据源
 - ImageNet开源数据集中的VOC2012一部分，进行类别合并，筛选出人物、动物、室内、交通四大类
 - 从国外开源医疗图像网站www.openi.org上爬取图片，进行修剪，最终得到医学类图像
