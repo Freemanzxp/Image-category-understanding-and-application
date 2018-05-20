@@ -19,6 +19,7 @@
 - picture：
   - craw_picture.py——爬虫系统构建
 - testCase：测试样本
+- 注：`由于.h5单文件超过了GitHub 100M的限制，项目总大小超过1个G，所以利用LFS进行git push`
 
 # 数据源
 - ImageNet开源数据集中的VOC2012一部分，进行类别合并，筛选出人物、动物、室内、交通四大类
@@ -32,7 +33,7 @@
   - 先说官方文档，众所周知，keras的模型结构有两种：Sequential、Model。阅读VGG16的源码可以发现，VGG16是Model结构，而官网文档给的例子是用Sequential结构搭建模型后，将vgg16_weights_tf_dim_ordering_tf_kernels.h5的权重加载进模型，但是实际运行会报错——两种结构并不兼容
   - 再说说博客，几乎所有的blog都和我的想法一致，尝试自己用Model结构搭建模型，但是在Flatten层都会报错，尝试各种写法都报错误
   - 最后我决定不动Flatten层，利用Model的pop()将最后三层Dense删除，再增加合适尺寸的Dense层，问题解决
-  - 注：想要利用训练好的VGG16，最好自己下载，然后改VGG16源码里面的载入地址（因为Keras需要去国外下载，及其慢，本库存放在VGG16_model中）
+  - 注：`想要利用训练好的VGG16，最好自己下载，然后改VGG16源码里面的载入地址（因为Keras需要去国外下载，及其慢，本库存放在VGG16_model中）`
 
 # 训练
 - 图像大类分类模型训练：人物、动物、室内、交通、医学
