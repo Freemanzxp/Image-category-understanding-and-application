@@ -38,7 +38,10 @@
 # 训练
 - 图像大类分类模型训练：人物、动物、室内、交通、医学
 
+  <img src="https://github.com/Freemanzxp/Image-category-understanding-and-application/raw/master/src/4.png" width = "500" />
 - 医学小类分类模型训练： 头部。胸部、四肢
+
+  <img src="https://github.com/Freemanzxp/Image-category-understanding-and-application/raw/master/src/5.png" width = "500" />
 
 # GUI
 - 利用python的tkinter搭建交互界面
