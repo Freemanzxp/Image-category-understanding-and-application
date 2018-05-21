@@ -40,11 +40,16 @@
 
 - 医学小类分类模型训练： 头部。胸部、四肢
 
-
 # GUI
 - 利用python的tkinter搭建交互界面
 - 将大类识别和医学小类识别串联起来，形成应用。
+  <img src="https://github.com/Freemanzxp/Image-category-understanding-and-application/raw/master/src/1.png" width = "500" />
+
 
 # 测试
 - 测试样本：testCase
+
+  <img src="https://github.com/Freemanzxp/Image-category-understanding-and-application/raw/master/src/2.png" width = "500" />
 - 测试截图：红线框标注的为分类错误
+
+  <img src="https://github.com/Freemanzxp/Image-category-understanding-and-application/raw/master/src/3.png" width = "500" />
