@@ -11,7 +11,7 @@
 # 文件结构及意义
 - VGG16_model：存放训练好的VGG16模型——vgg16_weights_tf_dim_ordering_tf_kernels.h5
 - main：主文件
-  - MedicalLargeClassification.py——图像识别GUI搭建
+  - MedicalLargeClassification.py——图像识别GUI搭建——`运行此文件即可启动程序`
   - MedicalLargeFine_tuning.py——图像大类识别模型搭建
   - MedicalSegmentFine_tuning.py——医学小类识别模型搭建
   - MedicalLargeClassificationModel_weights_15.h5——训练好的图像大类分类模型
