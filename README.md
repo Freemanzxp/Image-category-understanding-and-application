@@ -46,6 +46,7 @@
 # GUI
 - 利用python的tkinter搭建交互界面
 - 将大类识别和医学小类识别串联起来，形成应用。
+
   <img src="https://github.com/Freemanzxp/Image-category-understanding-and-application/raw/master/src/1.png" width = "500" />
 
 
